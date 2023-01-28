@@ -1,0 +1,9 @@
+spring :
+  datasource:
+    hikari:
+      jdbc-url: ${study.spring.datasource.url}
+      username: ${study.spring.datasource.username}
+      password: ${study.spring.datasource.password}
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
